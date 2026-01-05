@@ -1,4 +1,4 @@
-
+```mermaid
 sequenceDiagram
     autonumber
     participant Client
@@ -26,3 +26,4 @@ sequenceDiagram
     Note over Client,Server: Disconnect
     Client->>Queue: Disconnect
     Server->>Queue: Disconnect and remove queue
+```
